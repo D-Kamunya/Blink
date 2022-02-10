@@ -14,7 +14,7 @@ SECRET_KEY = '=8(v$qv^07suutcj8g0csc$72szgbn+9u5+@89ip@hblh-lcoh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost', '144.126.221.227', 'kamunya.click', 'www.kamunya.click']
 
 
 # Application definition
@@ -45,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
-INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost',)
+INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost', '144.126.221.227', 'kamunya.click', 'www.kamunya.click')
 
 DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.versions.VersionsPanel',
